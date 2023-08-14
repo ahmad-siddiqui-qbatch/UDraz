@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  background-color: lighten($primary, 40%);
+  background-image: url("https://images.unsplash.com/photo-1632059368252-be6d65abc4e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  margin: $spacing-4;
+  border-radius: 35px;
+  overflow: hidden;
+  .banner-overlay {
+    background-color: #00000070;
+    height: 100%;
+    width: 100%;
+  }
+  .banner-content {
+    padding: 200px 0;
+  }
+  .banner-heading {
+    padding-bottom: $spacing-6;
+    color: $white;
+    span{
+      color: $primary;
+    }
+  }
+  .banner-paragraph {
+    padding-bottom: $spacing-10;
+    color: $white;
+  }
+}

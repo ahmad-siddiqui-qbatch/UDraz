@@ -1,0 +1,141 @@
+body {
+  font-family: "Kollektif", sans-serif;
+  background-color: rgba(0, 0, 0, 0.6666666667);
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.btn {
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  border: 2px solid #eb4a26;
+  border-radius: 50px;
+  align-items: center;
+  padding: 8px 32px;
+}
+
+.btn-primary {
+  background-color: #eb4a26;
+  color: white;
+  padding: 4px 16px 4px 4px !important;
+}
+.btn-primary::before {
+  content: "\f178";
+  font-family: "font Awesome 6 free";
+  background-color: #171717;
+  height: 35px;
+  width: 35px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background-color: #eb4a26;
+  border-color: #eb4a26;
+}
+.btn-primary:hover::before {
+  transform: rotate(-40deg);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #eb4a26;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #171717;
+  margin: 16px;
+  padding: 8px;
+  border-radius: 35px;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  color: #fff;
+}
+.navbar .navbar-brand span {
+  color: #eb4a26;
+  padding-left: 4px;
+}
+.navbar .nav-item {
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-item .nav-link {
+  color: #fff;
+  padding: 16px;
+}
+.navbar .nav-item:hover .nav-link {
+  color: #eb4a26;
+}
+
+.banner {
+  display: flex;
+  background-color: #fce6e1;
+  background-image: url("https://images.unsplash.com/photo-1632059368252-be6d65abc4e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  margin: 16px;
+  border-radius: 35px;
+  overflow: hidden;
+}
+.banner .banner-overlay {
+  background-color: rgba(0, 0, 0, 0.4392156863);
+  height: 100%;
+  width: 100%;
+}
+.banner .banner-content {
+  padding: 200px 0;
+}
+.banner .banner-heading {
+  padding-bottom: 24px;
+  color: #fff;
+}
+.banner .banner-heading span {
+  color: #eb4a26;
+}
+.banner .banner-paragraph {
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.achievements-section {
+  margin: 16px;
+  background-color: #171717;
+  text-align: center;
+  color: #fff;
+  padding: 96px 40px;
+  border-radius: 35px;
+}
+.achievements-section .heading {
+  padding-bottom: 24px;
+}
+.achievements-section .counter {
+  display: flex;
+  justify-content: space-around;
+}
+.achievements-section .counter-item h1 {
+  font-size: 100px;
+  color: #eb4a26;
+}
+.achievements-section .counter-item .paragraph {
+  font-size: 18px;
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+body{
+  font-family: 'Kollektif', sans-serif;
+  background-color: #000000aa;
+}
+p{
+  font-size: 18px;
+  line-height: 30px;
+}
+h1{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+
+.btn{
+  font-weight:600;
+  position: relative;
+  display: flex;
+  border: 2px solid $primary;
+  border-radius: 50px;
+  align-items: center;
+  padding: $spacing-2 $spacing-8;
+}
+.btn-primary{
+  background-color: $primary;
+  color: white;
+  padding: $spacing-1 $spacing-4 $spacing-1 $spacing-1 !important;
+  &::before{
+    content: '\f178';
+    font-family: 'font Awesome 6 free';
+    background-color: $dark;
+    height: 35px;
+    width: 35px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: $spacing-2;
+    transition: 0.3s;
+  }
+  &:hover{
+    background-color: $primary;
+    border-color: $primary;
+    &::before{
+      transform: rotate(-40deg);
+    }
+  }
+}
+.btn-secondary{
+  background-color: transparent;
+  color: $primary;
+}

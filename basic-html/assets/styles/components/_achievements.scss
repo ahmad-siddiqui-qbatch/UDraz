@@ -1,0 +1,27 @@
+.achievements-section{
+  margin: $spacing-4;
+  background-color: $dark;
+  text-align: center;
+  color: $white;
+  padding: 96px $spacing-10;
+  border-radius: 35px;
+  .heading{
+    padding-bottom: $spacing-6;
+  }
+  .counter{
+    display: flex;
+    justify-content: space-around;
+  }
+  .counter-item{
+    h1{
+      font-size: 100px;
+      color: $primary;
+    }
+    .paragraph{
+      font-size: 18px;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    }
+  }
+}
